@@ -19,13 +19,13 @@ namespace IBM.Watsson.Examples
         [Space(10)]
         [Tooltip("The service URL (optional). This defaults to \"https://stream.watsonplatform.net/speech-to-text/api\"")]
         [SerializeField]
-        private string _serviceUrl = "https://api.us-south.speech-to-text.watson.cloud.ibm.com/instances/dd8900ee-dd70-4c3c-abf0-452fdf21a1cc";
+        private string _serviceUrl = "Redacted";
         [Tooltip("Text field to display the results of streaming.")]
         public Text ResultsField;
         [Header("IAM Authentication")]
         [Tooltip("The IAM apikey.")]
         [SerializeField]
-        private string _iamApikey = "66TPnp3yCZeaj-JNAxXk-h91YxonadSb1uqCtwSSGepI";
+        private string _iamApikey = "Redacted";
 
         [Header("Parameters")]
         // https://www.ibm.com/watson/developercloud/speech-to-text/api/v1/curl.html?curl#get-model
